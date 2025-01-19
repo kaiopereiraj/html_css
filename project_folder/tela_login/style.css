@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+ /* Color Palette */
+ --color1: #102E52;
+ --color2: #01325B;
+}
+
+body {
+    background-color: var(--color2);
+}
+
+div.master-d {
+    background-color: var(--color1);
+}
