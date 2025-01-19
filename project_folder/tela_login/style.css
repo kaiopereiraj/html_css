@@ -10,10 +10,3 @@
  --color2: #01325B;
 }
 
-body {
-    background-color: var(--color2);
-}
-
-div.master-d {
-    background-color: var(--color1);
-}
