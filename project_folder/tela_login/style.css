@@ -48,4 +48,9 @@ body {
 
 .master-d > .header-d > h1 {
     font-family: var(--font-pattern);
+    font-size: 2.6em;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 2px 2px 2px #00000072;
+    color: #fff;
 }
