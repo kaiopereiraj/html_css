@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +10,9 @@
  /* Color Palette */
  --color1: #102E52;
  --color2: #01325B;
+
+ /* Fonts */
+ --font-pattern: "Oxanium", serif;   
 }
 
 body {
@@ -39,4 +44,8 @@ body {
     display: block;
     width: 120px;
     margin: 0 auto;
+}
+
+.master-d > .header-d > h1 {
+    font-family: var(--font-pattern);
 }
