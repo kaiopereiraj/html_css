@@ -10,3 +10,19 @@
  --color2: #01325B;
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-login {
+    background: skyblue;
+    width: 50vw;
+    height: 70vh;
+    border-radius: 14px;
+    
+}
