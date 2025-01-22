@@ -39,7 +39,7 @@ body {
 }
 
 .master-d > .header-d {
-    margin-top: 16px;
+    margin-top: 20px;
 }
 
 .master-d > .header-d > img {
@@ -50,17 +50,18 @@ body {
 
 .master-d > .header-d > h1 {
     font-family: var(--font-pattern);
-    font-size: 2.6em;
+    font-size: 2.3em;
     text-align: center;
     margin: 16px 0;
     text-shadow: 2px 2px 2px #00000072;
     color: #fff;
+
 }
 
 .master-d > .header-d > hr {
     border: none;
     width: 80%;
-    height: 3px;
+    height: 2px;
     background-color: orangered;
     margin: 0 auto;
 }
@@ -77,20 +78,23 @@ body {
 .master-d > .login-inputs > label {
     display: block;
     font-family: var(--font-pattern); 
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 500;
     margin-top: 12px;
     color: #fff;
+    text-shadow: 1px 1px 2px #00000067;
 }
 
 .master-d > .login-inputs > .input-l {
     display: block;
     width: 100%;
     font-size: 1.1em;
-    padding: 12px;
+    padding: 6px;
     outline: none;
     border: none;
     border-bottom: 3px solid orangered;
     margin: 8px 0;
     background-color: transparent;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #00000067;
 }
