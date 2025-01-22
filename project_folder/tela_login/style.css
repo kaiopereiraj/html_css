@@ -74,6 +74,18 @@ body {
 }
 
 .master-d > .login-inputs > label {
-    display: block
-    
+    display: block;
+    font-family: var(--font-pattern); 
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.master-d > .login-inputs > .input-l {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #000;
+    /* background-color: transparent; */
 }
