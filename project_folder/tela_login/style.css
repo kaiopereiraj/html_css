@@ -81,7 +81,7 @@ body {
     font-family: var(--font-pattern); 
     font-size: 1.1em;
     font-weight: 500;
-    margin-top: 12px;
+    margin-top: 26px;
     color: #fff;
     text-shadow: 1px 1px 2px #00000067;
 }
@@ -93,9 +93,27 @@ body {
     padding: 6px;
     outline: none;
     border: none;
-    border-bottom: 3px solid orangered;
+    border-bottom: 2px solid rgba(255, 68, 0, 0.521);
     margin: 8px 0;
     background-color: transparent;
     color: #ffffff;
     text-shadow: 1px 1px 2px #00000067;
+}
+
+.master-d > .login-inputs > .input-l:focus {
+    border-bottom: 3px solid orangered;
+    transition: .7s;
+}
+
+.master-d > .login-inputs > .p-account {
+    display: block;
+    margin-top: 16px;
+    font-size: 0.9em;
+    text-align: center;
+    color: #fff;
+}
+
+.master-d > .login-inputs > .p-account > a {
+    color: rgba(255, 68, 0, 0.904);
+    text-decoration: none;
 }
