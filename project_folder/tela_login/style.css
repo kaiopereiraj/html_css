@@ -62,3 +62,18 @@ body {
     background-color: #000;
     margin: 0 auto;
 }
+
+.master-d > .login-inputs {
+    
+    display: block;
+    background-color: gray;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 16px;
+    padding: 8px;
+}
+
+.master-d > .login-inputs > label {
+    display: block
+    
+}
