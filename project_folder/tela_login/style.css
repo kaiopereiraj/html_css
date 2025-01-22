@@ -54,3 +54,8 @@ body {
     text-shadow: 2px 2px 2px #00000072;
     color: #fff;
 }
+
+.master-d > .header-d > hr {
+    border: none;
+    
+}
