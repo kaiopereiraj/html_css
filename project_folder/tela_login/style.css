@@ -27,8 +27,8 @@ body {
 
 .section-login {
     background: var(--color1);
-    width: 400px;
-    height: 600px;
+    min-width: 400px;
+    min-height: 600px;
     border-radius: 14px;
 }
 
