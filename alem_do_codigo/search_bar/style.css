@@ -20,7 +20,7 @@ body {
     align-items: center;
 }
 
-.search-text {
+.search-txt {
     border: none;
     outline: none;
     background: none;
@@ -37,7 +37,7 @@ body {
     color: #152746;
 }
 
-.search-box:hover > .search-text {
+.search-box:hover > .search-txt {
     width: 240px;
     padding: 0 6px;
 }
