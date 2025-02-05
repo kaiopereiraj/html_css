@@ -5,18 +5,18 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#menu-h {
+#menu-h ul{
     list-style: none;
     padding: 0;
     background-color: #393737;
 }
 
 
-#menu-h li {
+#menu-h ul li {
     display: inline;
 }
 
-#menu-h li a {
+#menu-h ul li a {
     display: inline-block;
     color: #fff;
     text-decoration: none;
@@ -25,7 +25,7 @@
     border-radius: 10px;
 }
 
-#menu-h li a:hover {
+#menu-h ul li a:hover {
     background-color: rgb(0, 0, 0);
     color: #00a2ff;
 }
