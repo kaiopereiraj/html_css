@@ -29,6 +29,7 @@ body {
 
     backdrop-filter: blur(0px);
     overflow: hidden;
+    transition: backdrop .6s;
 }
 
 .text {
