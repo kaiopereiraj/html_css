@@ -27,9 +27,21 @@ body {
     border: 1px solid #fff;
     border-radius: 10px;
 
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(0px);
+    overflow: hidden;
 }
 
 .text {
     color: #fff;
+    position: relative;
+    top: 200px;
+    transition: top .6s;
+}
+
+.container:hover {
+    backdrop-filter: blur(8px);
+}
+
+.container:hover .text{
+    top: 0;
 }
