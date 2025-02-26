@@ -17,7 +17,7 @@ body {
     width: 540px;
     height: 440px;
     overflow: hidden;
-    
+    border-radius: 30px;
 
     position: relative;
 }
@@ -34,9 +34,18 @@ body {
 
 .aft {
     left: 100%;
-    transition: .6s;
+    transition: 1.2s;
 }
 
 .box-img:hover .aft{
     left: 0;
+}
+
+span {
+    padding: 18px;
+    background-color: orangered;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    display: inline-block;
 }
