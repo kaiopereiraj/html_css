@@ -34,7 +34,7 @@ body {
 
 .aft {
     left: 100%;
-    transition: 1.2s;
+    transition: 2s;
 }
 
 .box-img:hover .aft{
