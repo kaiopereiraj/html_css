@@ -18,7 +18,7 @@ span.carregando {
     height: 60px;
     background-color: transparent;
     border-radius: 50%;
-    border: 12px solid red;
+    border: 12px solid rgb(149, 0, 255);
     border-top: 12px solid transparent;
 
     display: block;
