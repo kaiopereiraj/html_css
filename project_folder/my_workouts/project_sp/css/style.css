@@ -180,21 +180,40 @@ p {
 
 .text2:hover .txt2 {
     top: 0;
-    
 }
 
 /* Texto das curiosidades 3 */
 
 .text3 {
-    width: 240px;
-    height: 180px;
+    width: 40px;
+    height: 40px;
     border: 2px solid #ffffff;
     border-left: 0;
     border-bottom: 0;
+    overflow: hidden;
+    transition: .8s;
 
     position: absolute;
     top: 20vh;
     right: 6vw;
+}
+
+.text3 .txt3 {
+    position: absolute;
+    top: 40vh;
+    transition: 1.5s;
+}
+
+.text3:hover {
+    width: 230px;
+    height: 160px;
+    border: 2px solid #fff;
+
+    backdrop-filter: blur(5px);
+}
+
+.text3:hover .txt3 {
+    top: 0;
 }
 
 
