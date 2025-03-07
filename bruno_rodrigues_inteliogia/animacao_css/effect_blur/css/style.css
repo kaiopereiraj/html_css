@@ -5,9 +5,11 @@
 }
 
 .box-hover {
-    width: 550px;
-    height: 550px;
+    width: 500px;
+    height: 500px;
     background-color: skyblue;
+    overflow: hidden;
+    cursor: pointer;
 
     position: absolute;
     top: 50%;
@@ -18,5 +20,14 @@
 .box-blur {
     width: 100%;
     height: 100%;
-    background-image: url(../images/pexels-ahmet-hilmi-ermis-480844837-31004588.xcf;
+    background-image: url(../images/image_b.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: filter, transform .3s;
+}
+
+.box-hover:hover .box-blur{
+    transform: scale(1.1);
+    filter: blur(2px);
 }
