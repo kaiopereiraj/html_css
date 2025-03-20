@@ -34,9 +34,8 @@ button:hover {
     animation-name: anime;
     animation-duration: .7s;
     animation-timing-function: ease-in-out;
-    
+
     animation-iteration-count: infinite;
 
     animation-direction: alternate; 
-
 }
