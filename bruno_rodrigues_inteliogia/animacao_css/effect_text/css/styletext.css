@@ -34,7 +34,6 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-
 @keyframes gradient-text {
     0% {
         background-position-x: 0%;
