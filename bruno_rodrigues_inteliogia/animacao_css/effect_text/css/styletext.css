@@ -35,6 +35,7 @@ body {
 }
 
 @keyframes gradient-text {
+
     0% {
         background-position-x: 0%;
     }
@@ -42,4 +43,5 @@ body {
     100% {
         background-position-x: 100%;
     }
+    
 }
